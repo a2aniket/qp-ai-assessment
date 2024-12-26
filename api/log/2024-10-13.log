@@ -1,0 +1,18 @@
+2024-10-13 22:55:40,551 - app - INFO - [Chat] Chat response generated
+2024-10-13 22:58:49,967 - app - ERROR - [Resume.pdf] Error occurred while creating embedding: (sqlite3.ProgrammingError) Error binding parameter 2: type 'list' is not supported
+[SQL: INSERT INTO documents (filename, embedding, file_path) VALUES (?, ?, ?)]
+[parameters: ('Resume.pdf', [Document(metadata={'source': 'misc/fileupload/Resume.pdf', 'page': 0}, page_content='ANIKET RAJENDRA THORAT  \nSenior Software Engineer   \n \n +91 7 ... (7242 characters truncated) ... d routes.  \n \n PERSONAL DETAILS  \n \nDate of Birth:  2nd, Aug’1999  \nAddress: Pune, Maharashtra  \nLanguages Known:  English, Marathi and Hindi')], 'misc/fileupload/Resume.pdf')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-10-13 23:01:00,676 - app - ERROR - [Resume.pdf] Error occurred while creating embedding: (sqlite3.ProgrammingError) Error binding parameter 2: type 'list' is not supported
+[SQL: INSERT INTO documents (filename, embedding, file_path) VALUES (?, ?, ?)]
+[parameters: ('Resume.pdf', [Document(metadata={'source': 'misc/fileupload/Resume.pdf', 'page': 0}, page_content='ANIKET RAJENDRA THORAT  \nSenior Software Engineer   \n \n +91 7 ... (7242 characters truncated) ... d routes.  \n \n PERSONAL DETAILS  \n \nDate of Birth:  2nd, Aug’1999  \nAddress: Pune, Maharashtra  \nLanguages Known:  English, Marathi and Hindi')], 'misc/fileupload/Resume.pdf')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-10-13 23:03:43,505 - app - ERROR - [Resume.pdf] Error occurred while creating embedding: name 'db_document' is not defined
+2024-10-13 23:06:42,216 - app - ERROR - [Resume.pdf] Error occurred while creating embedding: (sqlite3.ProgrammingError) Error binding parameter 2: type 'list' is not supported
+[SQL: INSERT INTO documents (filename, embedding, file_path) VALUES (?, ?, ?)]
+[parameters: ('Resume.pdf', [Document(metadata={'source': 'misc/fileupload/Resume.pdf', 'page': 0}, page_content='ANIKET RAJENDRA THORAT  \nSenior Software Engineer   \n \n +91 7 ... (7242 characters truncated) ... d routes.  \n \n PERSONAL DETAILS  \n \nDate of Birth:  2nd, Aug’1999  \nAddress: Pune, Maharashtra  \nLanguages Known:  English, Marathi and Hindi')], 'misc/fileupload/Resume.pdf')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-10-13 23:07:56,653 - app - INFO - [Resume.pdf] Embedding created successfully
+2024-10-13 23:08:09,492 - app - INFO - [Resume.pdf] Embedding created successfully
+2024-10-13 23:08:24,894 - app - INFO - [Resume.pdf] Embedding created successfully
+2024-10-13 23:08:32,442 - app - INFO - [Chat] Chat response generated

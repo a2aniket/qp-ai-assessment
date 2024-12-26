@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "dd6918dc-8c25-4171-8d73-4189c9364149",
+		"name": "chatwithdoc",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10856630"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8000/upload",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/path/to/your/document.pdf"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/upload",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"upload"
+					]
+				},
+				"description": "Generated from cURL: curl -X POST \"http://localhost:8000/upload\" -H \"accept: application/json\" -H \"Content-Type: multipart/form-data\" -F \"file=@/path/to/your/document.pdf\"\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/chat",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"question\": \"Your question here\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/chat",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"chat"
+					]
+				},
+				"description": "Generated from cURL: curl -X POST \"http://localhost:8000/chat\" -H \"Content-Type: application/json\" -d \"{\\\"question\\\": \\\"Your question here\\\"}\"\r\n"
+			},
+			"response": []
+		}
+	]
+}

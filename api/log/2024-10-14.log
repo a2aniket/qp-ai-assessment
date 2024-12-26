@@ -1,0 +1,32 @@
+2024-10-14 17:00:11,727 - app - INFO - [Resume.pdf] Embedding created successfully
+2024-10-14 17:02:08,193 - app - INFO - [Resume.pdf] Embedding created successfully
+2024-10-14 17:10:32,850 - app - INFO - [Resume.pdf] Embedding created successfully
+2024-10-14 17:15:40,064 - app - INFO - [Resume.pdf] Embedding created successfully
+2024-10-14 17:16:25,928 - app - INFO - [Resume.pdf] Embedding created successfully
+2024-10-14 17:21:45,555 - app - ERROR - [Resume.pdf] Error occurred while creating embedding: name 'create_langsmith_dataset' is not defined
+2024-10-14 17:23:38,879 - app - INFO - [Resume.pdf] Embedding created successfully
+2024-10-14 17:28:36,474 - app - INFO - [Resume.pdf] Embedding created successfully
+2024-10-14 17:29:40,669 - app - INFO - [Resume.pdf] Embedding created successfully
+2024-10-14 17:31:43,157 - app - INFO - [Resume.pdf] Embedding created successfully
+2024-10-14 17:34:26,272 - app - INFO - [Resume.pdf] Embedding created successfully
+2024-10-14 17:35:13,192 - app - INFO - [Resume.pdf] Embedding created successfully
+2024-10-14 17:48:48,373 - app - INFO - [Resume.pdf] Embedding created successfully
+2024-10-14 17:52:49,935 - app - INFO - [Resume.pdf] Embedding created successfully
+2024-10-14 17:55:27,410 - app - ERROR - [Resume.pdf] Error occurred while creating embedding: cannot access local variable 'dataset_name' where it is not associated with a value
+2024-10-14 17:59:32,805 - app - INFO - [Resume.pdf] Embedding created successfully
+2024-10-14 18:01:46,116 - app - INFO - [Resume.pdf] Embedding created successfully
+2024-10-14 20:29:04,819 - app - INFO - [Resume.pdf] Embedding created successfully
+2024-10-14 20:31:52,675 - app - ERROR - [Resume.pdf] Error occurred while creating embedding: Conflict for /datasets. HTTPError('409 Client Error: Conflict for url: https://api.smith.langchain.com/datasets', '{"detail":"Dataset with this name already exists."}')
+2024-10-14 20:34:29,570 - app - ERROR - [Resume.pdf] Error occurred while creating embedding: name 'datetime' is not defined
+2024-10-14 20:35:31,849 - app - INFO - [Resume.pdf] Embedding created successfully
+2024-10-14 20:41:58,148 - app - INFO - [Resume.pdf] Embedding created successfully
+2024-10-14 20:57:26,852 - app - INFO - [Resume.pdf] Embedding created successfully
+2024-10-14 21:25:18,183 - app - ERROR - [Resume.pdf] Error occurred while creating embedding: name 'create_langsmith_dataset' is not defined
+2024-10-14 21:26:18,261 - app - INFO - [Resume.pdf] Embedding created successfully
+2024-10-14 21:26:34,543 - app - INFO - [Chat] Chat response generated
+2024-10-14 21:36:20,358 - app - INFO - [falcon-users-guide-2021-09.pdf] Embedding created successfully
+2024-10-14 21:38:00,485 - app - INFO - [falcon-users-guide-2021-09.pdf] Embedding created successfully
+2024-10-14 21:38:05,894 - app - ERROR - [Chat] Error occurred while generating chat response: (ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')), '(Request ID: 7da2d43c-f6be-4143-983c-eb1d85e2328e)')
+2024-10-14 21:39:00,997 - app - INFO - [Chat] Chat response generated
+2024-10-14 21:40:32,772 - app - INFO - [Chat] Chat response generated
+2024-10-14 22:25:31,745 - app - INFO - [Chat] Chat response generated
